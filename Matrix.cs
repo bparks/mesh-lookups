@@ -99,6 +99,11 @@ namespace brianparks.Cherwell
                 {
                     Console.WriteLine(GetRowColumnFor(new Point(x1, y1), new Point(x2, y2), new Point(x3, y3)));
                 }
+                else
+                {
+                    Console.WriteLine("When specifying coordinates, please specify them as individual integer arguments:");
+                    Console.WriteLine("Usage: matrix.exe [x1 y1 x2 y2 x3 y3]");
+                }
             }
             else
             {
