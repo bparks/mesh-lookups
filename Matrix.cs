@@ -106,6 +106,10 @@ namespace brianparks.Cherwell
                 Console.WriteLine("With no arguments, prints the full list of points defining faces");
                 Console.WriteLine("With SIX arguments, prints the matching row/column or \"NONE\"");
             }
+
+#if DEBUG
+            Console.ReadKey();
+#endif
         }
     }
 }

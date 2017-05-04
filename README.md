@@ -22,3 +22,10 @@ mono matrix.exe # Prints vertices
 mono matrix.exe 10 10 20 10 20 20 # Looks up a face by the vertices specified
 # Format above is x1 y1 x2 y2 x3 y3
 ```
+
+### To build for Windows
+
+1. Open MeshLookups.csproj in Visual Studio
+2. Click "Start"
+3. To update command-line arguments, double-click the project Properties node in
+   Solution Explorer, then edit "Command Line Arguments" on the "Debug" tab
