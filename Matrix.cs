@@ -15,9 +15,9 @@ namespace brianparks.Cherwell
         {
             row = char.ToUpper(row);
             if (row < 'A' || row > 'F')
-                throw new ArgumentException("row", "Row must be between A and F inclusive");
+                throw new ArgumentException("Row must be between A and F inclusive", "row");
             if (column < 1 || column > 12)
-                throw new ArgumentException("column", "Column must be between 1 and 12 inclusive");
+                throw new ArgumentException("Column must be between 1 and 12 inclusive", "column");
             int rowIndex = row - 'A'; //Turn the A-F into a 0-based row index
             int colIndex = column - 1; //Turn the (1-based) column specifier into a (0-based) column index
 
